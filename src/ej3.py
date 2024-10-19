@@ -3,9 +3,12 @@
 #Entrada
 
 def pregunta():
-    num1 = int(input("Dame un número entero: "))
+    try:
+        num1 = int(input("Dime tu edad: "))
+    except:
+        print("Por favor ingresa un número")
+        return pregunta()
     return num1
-
 #Procesamiento
 
 def comprobacion(n):

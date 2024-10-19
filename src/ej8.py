@@ -1,7 +1,10 @@
-import pdb
-# Escribir un programa que pida al usuario un número entero y muestre por pantalla un triángulo rectángulo como el de más abajo, de altura el número introducido.
+#Escribir un programa que pida al usuario un número entero y muestre por pantalla un triángulo rectángulo como el de más abajo.
+
+
+
 
 #Entrada
+
 def pregunta():
     try:
         num1 = int(input("Dime un número entero: "))
@@ -16,10 +19,14 @@ def pregunta():
 #Procesamiento
 
 def comprobacion(num1):
-    triangulo = ("*")
+    triangulo = ["1"]
+    contador = int(1)
     if (num1) > 0:
-        for i in range(0, num1 + 1):
-            print (triangulo * i) # Multiplica la cadena triangulo para imprimirla por i veces
+        while contador != num1:
+            valor = (contador + 2) 
+            triangulo.append(valor)
+            print(*triangulo[::-1],sep=" ")
+            contador = contador + 2
     else:
         print("Por favor introduzca valores mayores a 0")
 
@@ -33,4 +40,3 @@ def main():
     comprobacion(num1)
 
 main()
-
