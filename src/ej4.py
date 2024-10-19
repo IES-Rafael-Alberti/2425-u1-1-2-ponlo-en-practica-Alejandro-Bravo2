@@ -25,7 +25,7 @@ def cuenta_Atras(n):
             todo.append(valor)
     else:
         print("Por favor introduzca un valor mayor a 1")
-    print(*todo, sep=" , ")
+    return todo
 
 
 
@@ -34,6 +34,7 @@ def cuenta_Atras(n):
 
 def main():
     num1 = pregunta()
-    cuenta_Atras(num1)
+    valor = cuenta_Atras(num1)
+    print(*valor, sep=" , ")
     
 main()

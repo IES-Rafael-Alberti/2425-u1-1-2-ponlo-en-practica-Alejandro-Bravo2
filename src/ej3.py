@@ -18,12 +18,13 @@ def comprobacion(n):
             valorfinal.append(valor)
     else:
         print("Por favor escriba un número mayor a 0")
-    print (*valorfinal, sep=" , ")
-    
+    return valorfinal    
 #Salida
         
 def main():
     num1 = pregunta()
-    comprobacion(num1)
+    valorfinal = comprobacion(num1)
+    print (*valorfinal, sep=" , ")
+
 
 main()
