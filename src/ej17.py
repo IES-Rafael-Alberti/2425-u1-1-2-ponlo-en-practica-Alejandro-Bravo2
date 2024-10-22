@@ -30,7 +30,7 @@ def main():
     digitos = comprobacion(num1)
     print(digitos)
 
-main()
-
+if __name__ == "__main__":
+    main()
 
 #Las listas son lo mejor :)

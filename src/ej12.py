@@ -1,5 +1,4 @@
 #Escribir un programa en el que se pregunte al usuario por una frase y una letra, y muestre por pantalla el número de veces que aparece la letra en la frase.
-import pdb
 # Entrada
 
 def pregunta():
@@ -28,5 +27,5 @@ def main():
     contador = mostrar_Pantalla(frase, letra)
     print (f"El número de veces que se ha repetido esa letra en tu frase es {contador}")
     
-
-main()
+if __name__ == "__main__":
+    main()

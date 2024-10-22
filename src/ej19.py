@@ -47,6 +47,6 @@ def main():
         os.system("clear") # Voy a limpiar la consola porque seguramente se vaya a llenar de muchos menus y queda feo
 
 
-
-main()
+if __name__ == "__main__":
+    main()
 

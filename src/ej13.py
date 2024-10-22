@@ -28,11 +28,6 @@ def main():
         valor = pregunta()
         comprobar = comprobacion(valor)
         
-main()
-
-
-
-
-
-
+if __name__ == "__main__":
+    main()
 

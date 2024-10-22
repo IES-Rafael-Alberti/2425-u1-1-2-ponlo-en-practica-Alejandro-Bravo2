@@ -37,4 +37,5 @@ def main():
     valor = cuenta_Atras(num1)
     print(*valor, sep=" , ")
     
-main()
+if __name__ == "__main__":
+    main()

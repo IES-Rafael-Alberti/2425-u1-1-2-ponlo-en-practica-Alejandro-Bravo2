@@ -42,4 +42,5 @@ def main():
         print("Te he dicho que escribas solo una letra no más")
     
     
-main()
+if __name__ == "__main__":
+    main()

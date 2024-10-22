@@ -25,4 +25,5 @@ def main():
     num = entrada()
     multiplicador(num)
 
-main()
+if __name__ == "__main__":
+    main()

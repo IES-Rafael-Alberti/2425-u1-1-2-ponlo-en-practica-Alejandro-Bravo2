@@ -44,8 +44,5 @@ def main():
             print(f"La suma de todos los digítos de ese número es: {resultado} y la cantidad de números pares son: {contador}")
             
 
-
-        
-main()
-
-
+if __name__ == "__main__":
+    main()

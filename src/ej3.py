@@ -28,6 +28,5 @@ def main():
     num1 = pregunta()
     valorfinal = comprobacion(num1)
     print (*valorfinal, sep=" , ")
-
-
-main()
+if __name__ == "__main__":
+    main()

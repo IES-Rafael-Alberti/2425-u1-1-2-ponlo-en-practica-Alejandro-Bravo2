@@ -35,4 +35,5 @@ def main():
 
     print(f"El número mayor introducido ha sido: {mayor}")
         
-main()
+if __name__ == "__main__":
+    main()

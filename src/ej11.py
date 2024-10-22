@@ -23,4 +23,5 @@ def main():
     repetir(palabra)
 
 
-main()
+if __name__ == "__main__":
+    main()

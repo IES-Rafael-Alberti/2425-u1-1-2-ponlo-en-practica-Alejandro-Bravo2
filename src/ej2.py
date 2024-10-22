@@ -37,4 +37,5 @@ def main():
     seguridad = comprobacion(nombre)
     multiple(seguridad, nombre)
 
-main()
+if __name__ == "__main__":
+    main()

@@ -36,6 +36,5 @@ def main():
 
     print(f"La suma total es: {resultado}")
         
-main()
-
-
+if __name__ == "__main__":
+    main()

@@ -33,4 +33,5 @@ def main():
     guardar = comprobacion(num1, num2, num3)
     print(f"La cantidad de dinero ganada en {num3} años ha sido {guardar}")
 
-main()
+if __name__ == "__main__":
+    main()

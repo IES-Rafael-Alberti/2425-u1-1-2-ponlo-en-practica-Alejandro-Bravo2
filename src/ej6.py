@@ -32,5 +32,5 @@ def main():
     num1 = pregunta()
     comprobacion(num1)
 
-main()
-
+if __name__ == "__main__":
+    main()

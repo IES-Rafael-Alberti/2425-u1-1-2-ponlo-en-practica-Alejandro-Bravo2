@@ -33,5 +33,5 @@ def main():
     else:
         print("No es primo")
         
-
-main()
+if __name__ == "__main__":
+    main()
