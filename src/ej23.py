@@ -3,7 +3,6 @@
 # longitud 1 que contenga sólo una barra (“/”) se considera que termina una línea. Por cada 
 # línea completa, informar cuántos dígitos numéricos (del 0 al 9) aparecieron en total 
 # (en todos los títulos de libros que componen en esa línea). Finalmente, informar cuántas líneas completas se ingresaron.
-import re
 
 
 def pregunta():
@@ -11,9 +10,6 @@ def pregunta():
     return frase
 
 
-def bucle(frase):
-    numero = re.findall(r'-?\d+\.?\d*', frase)
-    return numero
 
 
 
@@ -27,11 +23,10 @@ def main():
         if frase == "/":
             contador += 1
         else:
-            numero = bucle(frase)
             todos_Numeros.append(numero)
     print(f"Se han completado {contador} líneas y en esas líneas habían: ")
     print(*todos_Numeros[::], sep=", ")
 
 main()
 
-###FALTAN COSAS
+###FALTAN COSAS, las haré luego del examen de edes
