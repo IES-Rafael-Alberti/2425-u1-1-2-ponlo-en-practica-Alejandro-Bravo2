@@ -11,7 +11,6 @@ def pregunta():
 
 def contar_Numeros(frase, cantidad:0):
     frase_Partida = frase.split()
-    pdb.set_trace()
     partes = [str(n) for n in str(frase_Partida)]
     partes.pop(0)
     partes.reverse()
