@@ -34,7 +34,8 @@ salida: esta parte se encargaría de mostrar al usuario datos esta parte estarí
 
 
 3. **Pasos para Ejecutar el Código:**
-   ``` python3 + <fichero>
+   ```
+   python3 + <fichero>
    ```
 
 
